@@ -9,3 +9,7 @@ preview:
 .PHONY: publish
 publish:
 	npx zenn publish
+
+.PHONY: update
+update:
+	npm update zenn-cli
